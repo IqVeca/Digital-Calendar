@@ -1,0 +1,62 @@
+#calendario{
+    border-collapse: separate;
+    border-spacing: 0px;
+    margin: auto; /* center center*/
+    margin-top: 30px;
+}
+
+
+.cell{
+    width: 170px;
+    height:120px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #12121f;
+    overflow: hidden;
+    color: white; 
+}
+
+.cell:hover{
+    border: 2px solid #515170;
+}
+
+
+.cellMonth{
+    width: 160px;
+    height:50px;
+    text-align: center;
+    font-size: 25px;
+    background-color:#167e56;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: white;
+}
+
+.cellCurrentDate{
+    width: 160px;
+    height:50px;
+    text-align: center;
+    font-size: 20px;
+    background-color:#167e56;
+    overflow: hidden;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 0;
+    overflow: hidden;
+    color: white;
+}
+
+.cellDaysOfWeek{
+    width: 170px;
+    height:120px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #12121f;
+    overflow: hidden;
+    color: white; 
+}
+
+#containerCalendar{
+    margin-top: 0px;
+}
